@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\ico">
+      <UniqueIdentifier>{14f465d0-4242-4736-befa-8838d0976fa5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="functionsGUI.hpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TransportTable.hpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Transport.hpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberEdit.hpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+    <ClInclude Include="TransportCalculate.hpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Transport.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="ico\Add.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Apply.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Apply_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Cancel.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Cancel_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Close.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Close_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Close_file.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Close_file_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Copy.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Copy_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Curve_points.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Curve_points_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Delete.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Delete_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Edit_page.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Edit_page_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Erase.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Erase_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Error.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Exit.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Help.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Help_book.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Info.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Mouse_pointer.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\New_file.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\New_file_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Ok.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Ok_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Open.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Open_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Preview.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Preview_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Save.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Save_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Synchronize.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Synchronize_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\To_do_list.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\To_do_list_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Warning.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Zoom.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+    <Image Include="ico\Add_disabled.ico">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Transport.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TransportTable.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="functionsGUI.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Transport.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TransportCalculate.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ico\Mouse_pointer.cur">
+      <Filter>Файлы ресурсов\ico</Filter>
+    </None>
+  </ItemGroup>
+</Project>
